@@ -13,7 +13,7 @@ object TestData {
     "X-Badge-Identifier" -> "BADGE12345"
   )
 
-  val successfulDeclarationInformationCode = 202
+  val successfulDeclarationInformationCode = 200
 
   val authBaseUrl = baseUrlFor("auth")
   val apiBaseUrl = baseUrlFor("customs-declarations-information")
