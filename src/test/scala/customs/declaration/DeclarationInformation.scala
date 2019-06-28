@@ -10,7 +10,7 @@ import utility.TestData._
 object DeclarationSubmission extends ServicesConfiguration {
 
   private def declarationInformation(user: User): HttpRequestBuilder = http("Submit Declaration Information")
-    .get(s"$apiBaseUrl/status-request/mrn/mrn_creationDateAgeInDays-10_acceptanceDateAgeInDays-10_tradeMovementType-IM_procedureCategory-00_badgeId-BADGE12345_tbPartyType-false_excludeFields-")
+    .get(s"$apiBaseUrl/status-request/mrn/performancetest")
     .headers(headers(user))
     .check(status.is(successfulDeclarationInformationCode))
 

@@ -7,10 +7,10 @@ object TestData {
 
   def headers(user: User): Map[String, String] = Map(
     "Accept" -> s"application/vnd.hmrc.${user.version}+xml",
-    "Content-Type" -> "application / xml",
+    "Content-Type" -> "application/xml; charset=UTF-8",
     "Authorization" -> s"Bearer ${user.token}",
-    "X-Client-ID" -> "ZOMRiiBBRIE8cBH9uLI1PpZtE4ga",
-    "X-Badge-Identifier" -> "BADGE12345"
+    "X-Client-ID" -> "d65f2252-9fcf-4f04-9445-5971021226bb",
+    "X-Badge-Identifier" -> "GAU123"
   )
 
   val successfulDeclarationInformationCode = 200
