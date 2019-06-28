@@ -10,7 +10,7 @@ object TestData {
     "Content-Type" -> "application/xml; charset=UTF-8",
     "Authorization" -> s"Bearer ${user.token}",
     "X-Client-ID" -> "d65f2252-9fcf-4f04-9445-5971021226bb",
-    "X-Badge-Identifier" -> "BADGE12345"
+    "X-Badge-Identifier" -> "GAU123"
   )
 
   val successfulDeclarationInformationCode = 200
